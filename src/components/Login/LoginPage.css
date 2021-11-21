@@ -1,0 +1,104 @@
+.form-started {
+  width: 70%;
+  max-width: 23rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: white;
+  margin: 3rem auto;
+  box-shadow: 0px 30px 36px #557da526;
+  font-size: 14px;
+}
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #303f60;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #43afff;
+  background-color: #e8e8e833;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+button:hover,
+button:active {
+  background-color: #303f60;
+  border-color: #43afff;
+}
+.invalid input {
+  border: 1px solid #ff0000;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+}
+
+.error-text {
+  color: #ff0000;
+  text-align: right;
+  font-weight: normal;
+}
+.desc-forgetemail {
+  color: #303f60;
+  text-align: left;
+  font-weight: normal;
+  padding: 0 0 15px;
+  letter-spacing: 0px;
+}
+.underline {
+  text-decoration: none;
+  font-weight: normal;
+}
+.Newjob {
+  margin: 50px 0 10px;
+  text-align: center;
+}
+.forget {
+  margin-left: 48%;
+}
+.passconfirm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.candidate-button {
+  background-color: #c6c6c6;
+  color: #303f60;
+}

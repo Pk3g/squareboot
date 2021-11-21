@@ -1,0 +1,25 @@
+.header {
+  background-color: #303f60;
+  justify-content: space-between;
+  color: white;
+}
+.Navbar {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 30px;
+}
+.Navbar-par {
+  font-size: 22px;
+}
+b {
+  margin: 3px;
+  color: #43afff;
+}
+button {
+  border-color: #43afff33;
+}
+hr {
+  width: 95%;
+  margin: 0 30px 0px;
+  color: white;
+}
